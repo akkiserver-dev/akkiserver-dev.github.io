@@ -1,0 +1,24 @@
+{
+  "name": "akkiserver-hp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Team-akkiServer/akkiserver-hp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Team-akkiServer/akkiserver-hp/issues"
+  },
+  "homepage": "https://github.com/Team-akkiServer/akkiserver-hp#readme",
+  "dependencies": {
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.21"
+  }
+}
