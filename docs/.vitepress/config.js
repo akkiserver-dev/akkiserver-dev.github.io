@@ -34,7 +34,7 @@ function getSidebarItems(dir, basePath, year) {
 }
 
 export default {
-    title: 'あっきーサーバー HP',
+    title: 'あっきーサーバー',
     description: '',
     themeConfig: {
         nav: [
