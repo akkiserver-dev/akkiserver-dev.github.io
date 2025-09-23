@@ -26,6 +26,10 @@ export default {
                                 {
                                     text: "あっきー",
                                     link: '/wiki/persons/akki'
+                                },
+                                {
+                                    text: "まめーん",
+                                    link: '/wiki/persons/mameeenn'
                                 }
                             ]
                         },
