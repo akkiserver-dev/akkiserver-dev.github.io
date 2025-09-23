@@ -4,6 +4,8 @@ title: あっきー
 ...
 ---
 
+<img src="https://github.com/akkiserver-dev/akkiserver-dev.github.io/blob/main/docs/.assets/akki.png?raw=true" width="200">
+
 ## 概要
 - あっきーサーバーの鯖主。マイクラ鯖の企画・運営も主に行っている。
 - 主な事件の主犯であり度重なるOP乱用と暴走により信用が地に落ちている

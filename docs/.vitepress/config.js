@@ -48,6 +48,8 @@ export default {
                 { text: 'Wiki', link: '/wiki' },
             ],
             '/wiki/': [
+                { text: 'ホーム', link: '/' },
+                { text: 'このサーバーについて', link: '/about' },
                 {
                     text: 'Wiki',
                     link: '/wiki',
