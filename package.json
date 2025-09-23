@@ -4,19 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Team-akkiServer/akkiserver-hp.git"
+    "url": "git+https://github.com/akkiserver-dev/akkiserver-dev.github.io.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Team-akkiServer/akkiserver-hp/issues"
+    "url": "https://github.com/akkiserver-dev/akkiserver-dev.github.io/issues"
   },
-  "homepage": "https://github.com/Team-akkiServer/akkiserver-hp#readme",
+  "homepage": "https://github.com/akkiserver-dev/akkiserver-dev.github.io#readme",
   "dependencies": {
     "vitepress": "^1.6.4",
     "vue": "^3.5.21"
