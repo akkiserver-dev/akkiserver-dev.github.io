@@ -11,6 +11,9 @@ hero:
     - theme: brand
       text: このサーバーについて
       link: /about
+    - theme: brand
+      text: 参加方法
+      link: /how_to_join
     - theme: alt
       text: Wiki
       link: /wiki
