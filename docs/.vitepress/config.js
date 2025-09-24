@@ -30,6 +30,10 @@ export default {
                                 {
                                     text: "まめーん",
                                     link: '/wiki/persons/mameeenn'
+                                },
+                                {
+                                    text: "シェフ",
+                                    link: '/wiki/persons/chef'
                                 }
                             ]
                         },
@@ -64,7 +68,8 @@ export default {
                                         {text: '8.5月鯖', link: "/wiki/servers/2025/aug_point_five"},
                                         {text: 'ゾンビアポカリプス鯖', link: "/wiki/servers/2025/sep_apocalypse"},
                                         {text: '9月鯖番外編', link: "/wiki/servers/2025/sep_extra"},
-                                        {text: '1月鯖改改', link: "/wiki/servers/2025/jun_jan_rereloaded"}
+                                        {text: '1月鯖改改', link: "/wiki/servers/2025/jun_jan_rereloaded"},
+                                        {text: '1月鯖', link: "/wiki/servers/2025/jan_yaminabe"}
                                     ]
                                 },
                                 {
