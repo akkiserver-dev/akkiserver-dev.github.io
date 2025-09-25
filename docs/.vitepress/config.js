@@ -187,6 +187,7 @@ function genNav() {
     nav.push({ text: getPageName(rootDir + path + "index.md"), link: path });
   });
 }
+logByError(`__dirname: ${__dirname}\nrootDir: ${rootDir}`);
 getSidebarFromDirectory(rootDir);
 finalize();
 genNav();
