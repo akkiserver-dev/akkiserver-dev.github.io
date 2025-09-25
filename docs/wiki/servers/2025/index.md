@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: 2025年のサーバー
+M_collapsed: true
 ...
 ---
 

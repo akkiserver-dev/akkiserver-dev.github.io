@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: 2024年のサーバー
+M_collapsed: true
 ...
 ---
 
