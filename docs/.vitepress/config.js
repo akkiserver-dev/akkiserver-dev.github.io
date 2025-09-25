@@ -7,13 +7,13 @@ import pathLib from "path";
  * 1つ上の階層のフォルダパスを入手する
  * @param {string} path
  */
-const getTopDir = (path) => path.split("\\").slice(0, -1).join("\\");
+const getTopDir = (path) => path.split("/").slice(0, -1).join("/");
 /**@param {string} content  */
 function logByError(content) {
   throw new Error(`\n----Content----\n${content}\n----End of Content----\n`);
 }
 const sidebar = {};
-const rootDir = getTopDir(__dirname);
+const rootDir = getTopDir(__dirname.replaceAll("\\", "/"));
 /**
  * `/wiki/accident`のような形式に変換する
  * @param {string} path
@@ -83,7 +83,7 @@ function getPageName(path) {
 function getPagePathObject(projectDirpath) {
   let curDir = "/";
   const proDir = getProjectFilePath(projectDirpath)
-    .split("\\")
+    .split("/")
     .slice(1)
     .map((p) => {
       curDir += p + "/";
@@ -117,22 +117,21 @@ function getPagePathObject(projectDirpath) {
 function addFileToList(path) {
   let filename = pathLib.basename(path);
   //該当ファイルのフォルダのプロジェクトルートフォルダからのフォルダのリスト
-  const proDir = getProjectFilePath(path).split("\\").slice(1, -1);
-  let curDir = "\\";
+  const proDir = getProjectFilePath(path).split("/").slice(1, -1);
+  let curDir = "/";
   proDir.forEach((p) => {
     curDir += p;
   });
-  const curDirSlashed = curDir.replaceAll("\\", "/");
   const pageName = getPageName(path);
-  const pageLink = getProjectFilePath(path).replaceAll("\\", "/");
+  const pageLink = getProjectFilePath(path);
   const pageObject = { text: pageName, link: pageLink };
   //ルートフォルダ
   if (proDir.length === 0) {
-    sidebar[curDirSlashed] ??= [];
-    sidebar[curDirSlashed].push(pageObject);
+    sidebar[curDir] ??= [];
+    sidebar[curDir].push(pageObject);
   } else {
     //該当オブジェクトを探索する
-    const curobj = getPagePathObject("\\" + proDir.join("\\"));
+    const curobj = getPagePathObject("/" + proDir.join("/"));
     const { M_noDisplay } = getPageMetadata(path);
     if (filename === "index.md") {
       curobj.M_noDisplay = M_noDisplay;
@@ -157,7 +156,7 @@ function jumpByDirectoryOrFile(path) {
 function getSidebarFromDirectory(dirPath) {
   fs.readdirSync(dirPath)
     .filter((p) => isnotIgnore(p))
-    .map((p) => dirPath + "\\" + p)
+    .map((p) => dirPath + "/" + p)
     .forEach(jumpByDirectoryOrFile);
 }
 const nav = [{ text: "ホーム", link: "/" }];
@@ -187,7 +186,6 @@ function genNav() {
     nav.push({ text: getPageName(rootDir + path + "index.md"), link: path });
   });
 }
-logByError(`__dirname: ${__dirname}\nrootDir: ${rootDir}`);
 getSidebarFromDirectory(rootDir);
 finalize();
 genNav();
