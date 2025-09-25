@@ -12,9 +12,12 @@ title: 1月鯖
 ### 主なmod
 - Create
 - Mekanism
+- AE2
+- ProjectE
+- **Re-Avaritia-forged**
 
 ### 情報
 - 開催時期: 不明
 
 ### 関連
-- [1月鯖改改](/wiki/servers/2025/jun_jan_rereloaded)
+- [1月鯖改・改改](/wiki/servers/2025/jun_jan_rereloaded)
