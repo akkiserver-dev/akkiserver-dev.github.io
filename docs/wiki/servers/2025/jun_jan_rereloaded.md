@@ -28,7 +28,7 @@ title: 1月鯖改・改改
 - ProjectEの整備やRe-Avaritiaに大きな変更を加えることで上記の異常が起こる程度に難化させた。
 - 特にRe-Avaritiaへの改変は激しく、簡単に量産できないSupplementariesの灰を大量に要求する「石鹼シンギュラリティ」などが追加された。
 - <div style="font-size:75%">シンギュラリティ追加に関するバグの為、Re-Avaritia自体への改変も行われた。</div>
-- また、FtB Questで報酬を設定したりFancyMenuを用いたメニュー変更など、既存modpackと遜色がないレベルまで仕上げた。<sub>と思っている</sub>
+- また、FTB Questで報酬を設定したりFancyMenuを用いたメニュー変更など、既存modpackと遜色がないレベルまで仕上げた。<sub>と思っている</sub>
 - なお隠し要素もあったのだが触れられずに終わった。
 
 ### 主なmod
@@ -38,6 +38,9 @@ title: 1月鯖改・改改
 - L2 Hostility
 - Timeless & Classics Guns: Zero
 - KubeJS,FancyMenu (さらなる改変)
+
+### 情報
+- 開催時期: 2025年6月 
 
 ## 関連
 - [1月鯖](/wiki/servers/2025/jan_yaminabe)

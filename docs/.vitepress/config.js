@@ -187,9 +187,9 @@ function finalize() {
       page.items.forEach(removeNoDisplay);
     }
   }
-  Object.values(sidebar).forEach((arr) => {
-    arr.unshift({ text: "ホーム", link: "/" });
-  });
+  for (const path in sidebar) {
+    if (path !== "/") sidebar[path].unshift({ text: "ホーム", link: "/" });
+  }
   for (const key in sidebar) {
     removeNoDisplay({ items: sidebar[key] });
   }
