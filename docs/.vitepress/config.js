@@ -209,7 +209,7 @@ genNav();
 // logByError(JSON.stringify(sidebar, null, 2));
 export default {
   title: "あっきーサーバー",
-  description: "",
+  description: "Powered by vitepress",
   themeConfig: {
     nav,
     sidebar,
