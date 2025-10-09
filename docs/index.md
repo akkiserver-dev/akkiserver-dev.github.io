@@ -6,7 +6,7 @@ hero:
   name: "あっきーサーバー"
   tagline: "主にマイクラのmodサーバー等の企画をやっているサーバー"
   image:
-    src: /sukusyo.png
+    src: /sukusyo2.png
     alt: いつかの鯖のスクショ
   actions:
     - theme: brand
