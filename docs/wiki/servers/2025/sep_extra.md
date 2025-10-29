@@ -12,7 +12,7 @@ title: 9月鯖番外編
 - Create
 - CC: Tweaked
 - Farmer's delight
-- Lightman's Currency
+- Lightman's Currency  
 さらにアップデートで
 - Timeless and Classics Zero
 - Mekanism
