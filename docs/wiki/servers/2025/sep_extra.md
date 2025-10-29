@@ -13,6 +13,9 @@ title: 9月鯖番外編
 - CC: Tweaked
 - Farmer's delight
 - Lightman's Currency
+さらにアップデートで
+- Timeless and Classics Zero
+- Mekanism
 
 ### 情報
 - 開催時期: 2025/09/04~現在
