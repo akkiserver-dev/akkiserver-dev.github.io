@@ -13,10 +13,10 @@ title: "MameeennArea"
 主に自動化設備で何かを生産したり、CC:Tweakedのコードを書いて人々に提供したりしている。
 
 ## 情報
-現本社: 9月番外鯖本社  
-社員:
+現本社: 11月鯖 (建物は未建設)  
+リンク: https://discord.com/channels/1318155001411145758/1434669434424791162  
+現社員:
 - [まめーん](/wiki/persons/mameeenn)
-- めだころ
   
 元本社リスト:  
 - 石風呂本社
@@ -28,6 +28,7 @@ title: "MameeennArea"
 - (2月: 子会社AreaFoodとして活動)
 - 4月本社
 - Re4月本社 / マーメイド拠点
+- 9月番外鯖本社 / 緑駅
 
 ## CC: Tweaked
 [https://github.com/manmen2414/AKKI-Server-MameeennArea](https://github.com/manmen2414/AKKI-Server-MameeennArea)にてサーバー区切りでプログラムを保管している。
