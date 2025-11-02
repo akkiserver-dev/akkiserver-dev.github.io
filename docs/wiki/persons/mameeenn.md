@@ -44,11 +44,10 @@ watch(clientScriptLoader, () => {
 ...<span style="font-size:120%;">しかし1回目はワールドデータ破損、2回目は謎のFPS低下によってクリアされなかった。</span>  
 1か月くらいかけて作った意味とは何だったのだろうか。
 
-<img src="https://github.com/akkiserver-dev/akkiserver-dev.github.io/blob/main/docs/.assets/MameeennArea.png?raw=true" width="24" style="display:inline;margin-right:5px"><span style="font-size:24px;">MameeennArea</span>  
-私があっきーサーバーのマイクラ上でサービスを提供するときしばし用いる名義。
-だいたい社員は私とめだころである。
-主に自動化設備で何かを生産したり、CC:Tweakedのコードを書いて人々に提供したりしていることがあったりもする気がすると考えている。
-この会社名義で作成したCC:Tweakedのluaコードは[ここ](https://github.com/manmen2414/AKKI-Server-MameeennArea)で見れる。
+<img src="https://github.com/akkiserver-dev/akkiserver-dev.github.io/blob/main/docs/.assets/MameeennArea.png?raw=true" width="24" style="display:inline;margin-right:5px"><span style="font-size:24px;">[MameeennArea](/wiki/companies/mameeennarea)</span>  
+私があっきーサーバーのマイクラ上でサービスを提供するときしばし用いる名義。  
+詳しくは[MameeennArea](/wiki/companies/mameeennarea)を参照。
+
 
 ## ソーシャル
 - ホームページ: [https://manmen2414.github.io/](https://manmen2414.github.io/)

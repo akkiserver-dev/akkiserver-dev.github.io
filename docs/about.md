@@ -73,6 +73,7 @@ VortexというDiscordのBotを使って自動で管理されており、Strike�
 - cureha
 - [Tamu](/wiki/persons/tamu)
 - [chef](/wiki/persons/chef)
+- 上り坂鉄道/Railway46
 - 干し柿
 - aisle
 - バルス
