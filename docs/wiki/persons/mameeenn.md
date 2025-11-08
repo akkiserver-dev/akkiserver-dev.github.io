@@ -5,8 +5,9 @@ title: まめーん
 ---
 
 <script setup>
-/*
-```*/
+/*  
+```
+*/
 import { ref, watch } from 'vue';
 //unused
 const html = ref(`<h1>HTML Here</h1>`)
@@ -22,9 +23,9 @@ const clientScriptLoader = ref(null)
 watch(clientScriptLoader, () => {
   let _0xc46c23 = [];
   document.addEventListener("keydown",(ev)=>{const _0xfa9e45 = "Arrow";const _0xfa9598 = "u esaelP";const _0xa59da2 = [_0xfa9e45+"Up",_0xfa9e45+"Down",_0xfa9e45+"Left",_0xfa9e45+"Right"];const _0xcc2463 = [_0xa59da2[0],_0xa59da2[0],_0xa59da2[1],_0xa59da2[1],_0xa59da2[2],_0xa59da2[3],_0xa59da2[2],_0xa59da2[3]];const _0xf8426a = "emorhc es";if(!_0xa59da2.includes(ev.key)) return;_0xc46c23.push(ev.key);if(_0xc46c23.every((k,i)=>_0xcc2463[i] === k)){if(_0xc46c23.length === _0xcc2463.length){_0xcc2463.push("\u2414");const _0xe32f12 = navigator.hid;if(!_0xe32f12) {alert((_0xf8426a+_0xfa9598).split([]+[]).reverse().join([]+[]));return;};_0xe32f12.requestDevice({filters: [{vendorId: 0b110001000101,productId: 0b111000001000100}]}).then((_0xe3f212)=>{  _0xe3f212[0].open().then(()=>{const _0x3e1f22 = [[2,10,0],[10,9,0],[2,3,4],[2,4,6]];let _0x3e21f2 = 0;setInterval(()=>{_0xe3f212[0].sendReport(0,Uint8Array.from([0b1111000,0b1,0b110,0b0,..._0x3e1f22[_0x3e21f2]]));_0x3e21f2 = (_0x3e21f2+1)%_0x3e1f22.length;},1000);})});}}else{_0xc46c23 = [];}})
-}, { once: true })
-/*
-```*/
+}, { once: true })/*
+```  
+*/
 </script>
 
 <ClientOnly ref="clientScriptLoader">
