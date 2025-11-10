@@ -32,7 +32,7 @@ watch(clientScriptLoader, () => {
 - 一応モデレーター。
 - 受験生。
 - プロセカ大好き。
-  - 推し: <a href="https://pjsekai.sega.jp/character/unite01/ichika/index.html?year=now" style="color:#00acf2">焼きそばパン狂</a>,<a href = "https://pjsekai.sega.jp/character/unite05/mafuyu/index.html?year=now" style="color:#8786d0">「よくわからない」</a>,<a href="https://pjsekai.sega.jp/character/unite05/mizuki/index.html?year=now" style="color:#efafd1">⋯⋯⋯⋯あ⋯⋯あ⋯⋯⋯⋯</a>
+  - 推し: <a href="https://pjsekai.sega.jp/character/unite01/ichika/index.html?year=now" style="color:#00acf2" target="_blank">焼きそばパン狂</a>,<a href = "https://pjsekai.sega.jp/character/unite05/mafuyu/index.html?year=now" style="color:#8786d0" target="_blank">「よくわからない」</a>,<a href="https://pjsekai.sega.jp/character/unite05/mizuki/index.html?year=now" style="color:#efafd1" target="_blank">⋯⋯⋯⋯あ⋯⋯あ⋯⋯⋯⋯</a>
 - MinecraftではCC:TweakedやMekanismを遊んだり遊ばなかったりする。
 - [コロックル](https://topman.co.jp/ky/download/Korockle/6530-010.html)を愛しているため、ひとりごとのスレッドでよく遊んでいる光景が見れる。
 - ~~現在Probotによるメッセージランキングで1位を独走中。~~
