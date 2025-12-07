@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 layout: doc
 title: "MameeennArea"
@@ -50,12 +49,11 @@ title: "MameeennArea"
 主に自動化設備で何かを生産したり、CC:Tweakedのコードを書いて人々に提供したりしている。
 
 ## 情報
-現本社: 11月鯖 (建物は未建設)  
-リンク: https://discord.com/channels/1318155001411145758/1434669434424791162  
-現社員:
-- [まめーん](/wiki/persons/mameeenn)
+現本社: 
+リンク: 
+現社員:
   
-元本社リスト:  
+会社が設立されたサーバーリスト:  
 - 石風呂本社
 - 本社1号
 - バリン鯖本社 / CC:Tweaked博物館
@@ -66,7 +64,7 @@ title: "MameeennArea"
 - 4月本社
 - Re4月本社 / マーメイド拠点
 - 9月番外鯖本社 / 緑駅
+- 11月鯖
 
 ## CC: Tweaked
->>>>>>> 4ef53a0 (december)
 [https://github.com/manmen2414/AKKI-Server-MameeennArea](https://github.com/manmen2414/AKKI-Server-MameeennArea)にてサーバー区切りでプログラムを保管している。
