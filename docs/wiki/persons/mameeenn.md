@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 layout: doc
 title: まめーん
@@ -124,4 +123,3 @@ watch(clientScriptLoader, () => {
 
 ## ツール
 好き勝手やってるのでもしかしたらここら辺にWebツールが追加されてるかもしれません(???????????)
->>>>>>> 4ef53a0 (december)
