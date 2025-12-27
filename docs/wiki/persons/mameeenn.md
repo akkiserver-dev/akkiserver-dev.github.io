@@ -35,8 +35,9 @@ watch(clientScriptLoader, () => {
   - 推し: <a href="https://pjsekai.sega.jp/character/unite01/ichika/index.html?year=now" style="color:#00acf2" target="_blank">焼きそばパン狂</a>,<a href = "https://pjsekai.sega.jp/character/unite05/mafuyu/index.html?year=now" style="color:#8786d0" target="_blank">「よくわからない」</a>,<a href="https://pjsekai.sega.jp/character/unite05/mizuki/index.html?year=now" style="color:#efafd1" target="_blank">⋯⋯⋯⋯あ⋯⋯あ⋯⋯⋯⋯</a>
 - MinecraftではCC:TweakedやMekanismを遊んだり遊ばなかったりする。
 - [コロックル](https://topman.co.jp/ky/download/Korockle/6530-010.html)を愛しているため、ひとりごとのスレッドでよく遊んでいる光景が見れる。
-- ~~現在Probotによるメッセージランキングで1位を独走中。~~
-  - 2025/11/03 19:35のランク一律リセットによって一強時代は終焉を迎えた。
+  - 技術教材「[Life is tech!Lesson](https://lifeistech-lesson.jp/)」にもハマっている。
+- 現在Probotによるメッセージランキングで1位を独走中。
+  - 2000pt差なので割と越されそう。
 
 ## 1月鯖改・改改
 闇鍋環境で3日で終わった伝説の環境1月鯖、それを私がテコ入れし、一月鯖改を作った。  
