@@ -36,8 +36,8 @@ watch(clientScriptLoader, () => {
 - MinecraftではCC:TweakedやMekanismを遊んだり遊ばなかったりする。
 - [コロックル](https://topman.co.jp/ky/download/Korockle/6530-010.html)を愛しているため、ひとりごとのスレッドでよく遊んでいる光景が見れる。
   - 技術教材「[Life is tech!Lesson](https://lifeistech-lesson.jp/)」にもハマっている。
-- 現在Probotによるメッセージランキングで1位を独走中。
-  - 2000pt差なので割と越されそう。
+- 現在Probotによるメッセージランキングで1位を取っている。
+  - [あっきー](./akki)と400pt差。本当に一瞬で追いつかれる。まずい。
 
 ## 1月鯖改・改改
 闇鍋環境で3日で終わった伝説の環境1月鯖、それを私がテコ入れし、一月鯖改を作った。  
