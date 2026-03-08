@@ -17,6 +17,7 @@ title: "MameeennArea"
 リンク: https://discord.com/channels/1318155001411145758/1476463106006974556  
 現社員:
 - [まめーん](../persons/mameeenn)
+
 備考:  
 - サーバー情勢を鑑みた結果、両者の合意に基づきMAreaはマイクラント公国国有鉄道会社の子会社となった。
   
