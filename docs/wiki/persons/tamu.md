@@ -5,13 +5,13 @@ title: Tamu1256tt
 ---
 
 ## 概要
-- 常に暇人であった
-- 高校一年生()
-- discord Bot開発してる(python)
+- 暇人でーす
+- 2026年度は高校二年生
+- discord Bot開発してます(python)
 - インテル大好き！！！ﾃｰﾝﾃﾝﾃﾝﾃﾝﾃﾝ
 - MinecraftではCreateや1.21.1、RTMを遊んでいる
 - [インテル](https://www.intel.co.jp/content/www/jp/ja/homepage.html)の中毒者
-- 実際はRyzen 5 5600Xを使っている()
+- 実際はRyzen 5 5600Xを使っている
 
 
 ## あっきーサーバーでの活動
@@ -19,7 +19,7 @@ title: Tamu1256tt
 - Create知識はある程度あるので序盤では活動してるが、後半はあまりにも暇人であるため無駄な作業をしてしまう(?)
 
 ### Mekanism
-- Mekanismも知識はあるけど核とかは知らんので、序盤だけ...
+- Mekanismも知識はあるけど核とかは知らんので、リチウムぐらいまではいける
 
 ## PC環境紹介
 ### メインパソコンパーツ
@@ -48,22 +48,34 @@ title: Tamu1256tt
 - RAM: DDR4 SODIMM 12GB
 - SSD: 500GB
 - GPU: Onboard
+### マイクラサーバー
+- OS: UbuntuServer 24.04.4 LTS
+- MB: Lenovo 314F
+- CPU: Intel Core i7 9700
+- RAM: DDR4 2133 MHz 16GBx2 32GB (SK Hynix HMA82GU6MFR8N-TF)
+- SSD: SATA 512GB AGI512G17AI178
+- GPU: Quadro P2000
 ### 周辺機器
 - モニター: [HUAWEI XWU-CBA](https://x.gd/Ib2qe)
 - 2枚目: [VTF24021BT](https://www.fmv.com/store/pid/VTF24021BT.html)
 - キーボード: [TK G02MBK](https://kakaku.com/item/K0001345694/)
 - マウス:[M-G02URBK](https://kakaku.com/item/K0001060029/)
-- ゲーミングマット(上海問屋)
+- ゲーミングマットiCasso
 - マウスパッド：ロジクール
 - エディオンマイク
 - ヤフフリカメラ
 - 無線ワイヤレスマウス：Logicool G304
 - ゲーミングチェア：ニトリ
 
+## ゲーム
+- アークナイツエンドフィールド
+- shapez2
+- 太鼓の達人
+- 原神
 ## ソーシャル
-- ホームページ: まだない
+- ホームページ: https://kaede050492.com
 - Discord: [インテル(かえで)](https://discord.com/users/831453621732245534)
 - MCID: [Tamu1256tt](https://ja.namemc.com/profile/Tamu1256tt)
 - GitHub: [kaede050492](https://github.com/kaede050492)
 - X: [Tamu0714tt](https://x.com/Tamu0714tt)
-  - フレンドは歓迎。
+
