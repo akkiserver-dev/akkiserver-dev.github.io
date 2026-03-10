@@ -4,9 +4,10 @@ title: 2月鯖② akki The Mods (剣魔)
 ...
 ---
 
-## 2月鯖 Immersive Engineering
+## 2月鯖 akki The Mods (剣魔)
 ### 概要
-- 
+- ほぼほぼ某GN氏の剣魔な構成。
+- もともとシェフの闇鍋構成だったがこれ剣魔じゃね？ってなってなぜか剣魔っぽい構成に...
 
 ### 主なMod
 - L2
