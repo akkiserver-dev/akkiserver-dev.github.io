@@ -11,28 +11,50 @@ title: 物流ネットワーク 命名規則
 `meatwo/Mixer`
 また、命名規則については基本的にすべて`PascalCase`かつ英語を使用する。
 
-物流ネットワークにて、倉庫やクラフト施設の接頭辞として使うのは主に以下となる
+物流ネットワークにて、倉庫やクラフト施設の接頭辞として使うのは主に以下となる。
+
+## Create
 - 物流倉庫 : `Storage` 
-- クラフター : `Crafter`
+- クラフター : `Craft`
 - ファン
-  - 精錬 : `Smelter`
-  - 燻製 : `Smoker`
-  - 洗浄 : `Washer`
-  - 憑霊 : `Haunter`
+  - 精錬 : `Smelt`
+  - 燻製 : `Smoke`
+  - 洗浄 : `Wash`
+  - 憑霊 : `Haunt`
 - ミキサー
   - 通常 : `Mixer`
   - 加熱 : `Mixer-H`
   - 過熱 : `Mixer-SH`
 - 圧縮
-  - 通常 : `Compacting`
-  - 過熱 : `Compacting-SH`
+  - 通常 : `Pack`
+  - 加熱 : `Pack-H`
+  - 過熱 : `Pack-SH`
 - メカニカルプレス : `Press`
-- 製粉 : `Milling`
-- 粉砕 : `Crushing`
+- 製粉 : `Mill`
+- 粉砕 : `Crush`
 - メカニカルソー : `Saw`
-- デプロイヤー : `Deployer`
+- デプロイヤー : `Deploy`
+- 注液 : `Spout`
 
-これらは加工やクラフトの種類によって分ける。(例: `Deployer/Polishing`, `Smelter/SmoothStone`)
+## Central Kitchen
+- まな板の使用 : `Cut`
+
+## Bitterballen
+- フライヤー : `Fry`
+
+## Metallurgy
+- 溶解 : `Melt` ※CBCも共通
+- るつぼ
+  - 通常 : `Crucible`
+  - 加熱 : `Crucible-H`
+  - 過熱 : `Crucible-SH`
+- 合金 : `Alloy`
+- グラインダー : `Grind`
+- 特定の加工ラインの場合 : `Foundry`
+  - 例1: `Foundry/Steel`
+  - 例2: `Foundry/Brass`
+
+これらは加工やクラフトの種類によって分ける。(例: `Deploy/Polishing`, `Smelt/SmoothStone`)
 その他自身の家や住所に関しては自由である。
 
 備考: ミキサーと圧縮の接尾辞についている`H`と`SH`は、HeatedとSuper-Heatedの略です。
@@ -52,44 +74,44 @@ title: 物流ネットワーク 命名規則
 - それ以外のサイズに関しては/で区別する。(`Crafter/WxH`のように)(W=Width,H=Height)
 ## 畑
 ### 接頭辞
-- `Plantation` 植林場などの耕地を使用しないもの
-  - `Plantation/Oak` オークの植林場
-  - `Plantation/Cactus` サボテン農場
-  - `Plantation/SugarCane` サトウキビ農場
-  - `Plantation/CocoaBeans` カカオ農場
+- `Plant` 植林場などの耕地を使用しないもの
+  - `Plant/Oak` オークの植林場
+  - `Plant/Cactus` サボテン農場
+  - `Plant/SugarCane` サトウキビ農場
+  - `Plant/CocoaBeans` カカオ農場
 - `Field` 耕地によって栽培されるもの
   - `Field/Wheat` 小麦の農場
   - `Field/Rice` 田 (実際には耕地を使用しないが例外的にここへ分類)
   - `Field/Potato` ジャガイモの農場
 ## ファン
-- `Smelter` 精錬
-  - `Smelter/SmoothStone` Createのフィルターの仕様上一度石に加工したあともう一度精錬するときになめらかな石に加工するか判別できないため別々で
-- `Smoker` 燻製
-- `Washer` 洗浄
-- `Haunter` 憑霊
+- `Smelt` 精錬
+  - `Smelt/SmoothStone` Createのフィルターの仕様上一度石に加工したあともう一度精錬するときになめらかな石に加工するか判別できないため別々で
+- `Smoke` 燻製
+- `Wash` 洗浄
+- `Haunt` 憑霊
 ## ミキサー
 - `Mixer` 混合
 - `Mixer-H` 加熱混合
-- `Mixer-H` 過熱混合
+- `Mixer-SH` 過熱混合
   - `Mixer/Lava` レシピに溶岩を使う混合
   - `Mixer/Water` レシピに水を使う混合
 ## 圧縮
-- `Compacting` 圧縮
-- `Compacting-H` 加熱圧縮
-- `Compacting-SH` 過熱圧縮
+- `Pack` 圧縮
+- `Pack-H` 加熱圧縮
+- `Pack-SH` 過熱圧縮
 ## プレス
 - `Press`
 ## 製粉
-- `Milling`
+- `Mill`
 ## 破砕
-- `Crushing`
+- `Crush`
 ## メカニカルソー
 - `Saw`
   - `Saw/Shaft` 安山岩合金からシャフトへの加工(フィルター使用)
   - `Saw/Planks` 樹皮を剥いだ原木から木材への加工(フィルター使用)
 ## デプロイヤー
-- `Deployer`
-  - `Deployer/Polishing` やすり
-  - `Deployer/PrecisionMechanism` 精密機構
+- `Deploy`
+  - `Deploy/Polishing` やすり
+  - `Deploy/Mechanism` 精密機構
 
 耕地: `minecraft:farmland` (またはFarmer's Delightの肥沃な耕地)
