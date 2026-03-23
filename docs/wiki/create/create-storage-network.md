@@ -78,6 +78,7 @@ title: 物流ネットワーク 命名規則
   - `Plant/Cactus` サボテン農場
   - `Plant/SugarCane` サトウキビ農場
   - `Plant/CocoaBeans` カカオ農場
+  - `Plant/Kelp` 昆布農場
 - `Field` 耕地によって栽培されるもの
   - `Field/Wheat` 小麦の農場
   - `Field/Rice` 田 (実際には耕地を使用しないが例外的にここへ分類)
