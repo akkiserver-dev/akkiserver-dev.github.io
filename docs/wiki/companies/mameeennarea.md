@@ -82,7 +82,7 @@ watch(
 - 9月番外鯖本社 / 緑駅
 - 11月鯖
 - 2026年3月鯖 (~3/30)
-- 2026年3月鯖 (3/31): ["DestroyAnarouter"](/wiki/companies/MameeennArea?destroy=FaxAnarouter)
+- 2026年3月鯖 (3/31): ["DestroyAnarouter"](MameeennArea?destroy=FaxAnarouter)
 
 ## CC: Tweaked
 [https://github.com/manmen2414/AKKI-Server-MameeennArea](https://github.com/manmen2414/AKKI-Server-MameeennArea)にてサーバー区切りでプログラムを保管している。
@@ -107,7 +107,7 @@ watch(
 - [まめーん](../persons/mameeenn)
 - [あっきー](../persons/akki)
 
-[MameeennAreaに戻る](/wiki/companies/MameeennArea)
+[MameeennAreaに戻る](MameeennArea)
 
 </div>
 
