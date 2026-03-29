@@ -7,6 +7,12 @@ title: "MameeennArea"
 <script setup>
 import { ref, watch } from "vue";
 
+function reloader(){
+  setTimeout(()=>{
+    location.reload();
+  },20)
+}
+
 const clientScriptLoader = ref(null);
 watch(
   clientScriptLoader,
@@ -83,7 +89,7 @@ watch(
 - 9月番外鯖本社 / 緑駅
 - 11月鯖
 - 2026年3月鯖 (~3/30)
-- 2026年3月鯖 (3/31): ["DestroyAnarouter"](mameeennarea?destroy=FaxAnarouter)
+- 2026年3月鯖 (3/31): <a href="mameeennarea?destroy=FaxAnarouter" @click="reloader">"DestroyAnarouter"</a>
 
 ## CC: Tweaked
 [https://github.com/manmen2414/AKKI-Server-MameeennArea](https://github.com/manmen2414/AKKI-Server-MameeennArea)にてサーバー区切りでプログラムを保管している。
@@ -108,7 +114,8 @@ watch(
 - [まめーん](../persons/mameeenn)
 - [あっきー](../persons/akki)
 
-[MameeennAreaに戻る](mameeennarea)
+
+<a href="mameeennarea" @click="reloader">MameeennAreaに戻る</a>
 
 </div>
 
