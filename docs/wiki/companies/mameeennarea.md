@@ -14,8 +14,7 @@ watch(
     const isDestoryAnarouter = location.href.includes("destroy=FaxAnarouter");
 
     if (isDestoryAnarouter) {
-      document.querySelector("#MameeennArea").style.display = "none";
-      document.querySelector("#DestoryAnarouter").style.display = "unset";
+      document.querySelector("#MameeennArea").remove();
       setTimeout(() => {
         const removes = [
           document.querySelector("#fa"),
@@ -40,6 +39,8 @@ watch(
           });
         }, 500);
       },4400);
+    }else{
+      document.querySelector("#DestoryAnarouter").remove();
     }
   },
   { once: true },
@@ -89,7 +90,7 @@ watch(
 
 </div>
 
-<div id="DestoryAnarouter" style="display:none">
+<div id="DestoryAnarouter">
 
 <div :class="$style.videoWrapper" id="videoWrapper"></div>
 <div :class="$style.fa" id="fa">
