@@ -17,9 +17,9 @@ const clientScriptLoader = ref(null);
 watch(
   clientScriptLoader,
   () => {
-    const isDestoryAnarouter = location.href.includes("destroy=FaxAnarouter");
+    const isDestroyAnarouter = location.href.includes("destroy=FaxAnarouter");
 
-    if (isDestoryAnarouter) {
+    if (isDestroyAnarouter) {
       document.querySelector("#MameeennArea").remove();
       setTimeout(() => {
         const removes = [
@@ -46,7 +46,7 @@ watch(
         }, 500);
       },4400);
     }else{
-      document.querySelector("#DestoryAnarouter").remove();
+      document.querySelector("#DestroyAnarouter").remove();
     }
   },
   { once: true },
@@ -96,14 +96,14 @@ watch(
 
 </div>
 
-<div id="DestoryAnarouter">
+<div id="DestroyAnarouter">
 
 <div :class="$style.videoWrapper" id="videoWrapper"></div>
 <div :class="$style.fa" id="fa">
   <video src="https://github.com/akkiserver-dev/akkiserver-dev.github.io/blob/main/docs/.assets/FaxAnorouter.mp4?raw=true" autoplay width="1000%"></video>
 </div>
 
-# DestoryAnarouter
+# DestroyAnarouter
 ## 概要
 目的は唯一つ。FaxAnarouterを破壊する、それだけ。
 
