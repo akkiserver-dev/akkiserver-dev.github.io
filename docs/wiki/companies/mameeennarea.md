@@ -93,7 +93,7 @@ watch(
 
 <div :class="$style.videoWrapper" id="videoWrapper"></div>
 <div :class="$style.fa" id="fa">
-  <video src="../../.assets/FaxAnorouter.mp4" autoplay width="1000%"></video>
+  <video src="https://github.com/akkiserver-dev/akkiserver-dev.github.io/blob/main/docs/.assets/FaxAnorouter.mp4?raw=true" autoplay width="1000%"></video>
 </div>
 
 # DestoryAnarouter
