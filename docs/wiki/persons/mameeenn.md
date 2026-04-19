@@ -29,12 +29,14 @@ watch(clientScriptLoader, () => {
 ## 概要
 - ただのあっきーサーバーのメンバーの1人。
 - 一応モデレーター。
-- 受験生。
-- プロセカ大好き。
-  - 推し: <a href="https://pjsekai.sega.jp/character/unite01/ichika/index.html?year=now" style="color:#00acf2" target="_blank">焼きそばパン狂</a>,<a href = "https://pjsekai.sega.jp/character/unite05/mafuyu/index.html?year=now" style="color:#8786d0" target="_blank">「よくわからない」</a>,<a href="https://pjsekai.sega.jp/character/unite05/mizuki/index.html?year=now" style="color:#efafd1" target="_blank">⋯⋯⋯⋯あ⋯⋯あ⋯⋯⋯⋯</a>
-- MinecraftではCC:TweakedやMekanismを遊んだり遊ばなかったりする。
-- [コロックル](https://topman.co.jp/ky/download/Korockle/6530-010.html)を愛しているため、ひとりごとのスレッドでよく遊んでいる光景が見れる。
-  - 技術教材「[Life is tech!Lesson](https://lifeistech-lesson.jp/)」にもハマっている。
+- 趣味に関する自己紹介は [https://manmen2414.github.io/](https://manmen2414.github.io/) を参照。
+
+- Minecraftでは以下のmodを扱うことが多い。
+  - [CC:Tweaked](https://tweaked.cc/)
+  - [Mekanism](https://www.curseforge.com/minecraft/mc-mods/mekanism)
+  - [Create](https://www.curseforge.com/minecraft/mc-mods/create)
+  - [Applied Energistics 2](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2)
+  - [Construction Wand](https://www.curseforge.com/minecraft/mc-mods/construction-wand)
 
 ## 1月鯖改・改改
 闇鍋環境で3日で終わった伝説の環境1月鯖、それを私がテコ入れし、一月鯖改を作った。  
