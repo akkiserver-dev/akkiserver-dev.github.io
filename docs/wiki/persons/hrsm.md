@@ -4,7 +4,8 @@ title: はーすむ
 ...
 ---
 <script setup>
-  import {ref} from "vue"
+  import {ref,onMounted} from "vue";
+
   const showing = ref(null)
   const toggleRRB = (name) => {
     showing.value = showing.value === name ? null : name
@@ -12,6 +13,13 @@ title: はーすむ
   const owoshoot = () => {
     window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&autoplay=1&mute=1"
   }
+
+  const susdata = ref(null);
+  onMounted(async () => {
+    const res = await fetch("https://kaibunsho.riclias.net/api")
+    susdata.value = await res.json()
+  });
+
 </script>
 
 # はーすむ
@@ -96,12 +104,10 @@ title: はーすむ
   > [公式ホームページ(DEEMO)](https://rayark.com/ja/games/deemo/) / [(DEEMO -Reborn-)](https://rayark.com/ja/games/deemoreborn/)  
     _「さよならも言わず、消えてしまわないで。」_ 
 
-  <p>
-    唯一ゲームからで失礼します。<br>
-    DEEMOは、私が一番最初にプレイしたリズムゲームで、<strong>かつ一番心が動かされたゲームです。</strong><br>
-    もしリズムゲームに興味がある方なら、ぜひ、やってみていただきたいと思います。<br>
-    (ちなみに、Rebornはストーリーをそのままに色々変更が入ったブラッシュアップ版です。VRが好きな方はこちらをどうぞ。)<br>
-  </p>
+    唯一ゲームからで失礼します。  
+    DEEMOは、私が一番最初にプレイしたリズムゲームで、**かつ一番心が動かされたゲームです。**  
+    もしリズムゲームに興味がある方なら、ぜひ、やってみていただきたいと思います。  
+    (ちなみに、Rebornはストーリーをそのままに色々変更が入ったブラッシュアップ版です。VRが好きな方はこちらをどうぞ。)  
 
 </div>
 
@@ -115,6 +121,21 @@ title: はーすむ
 
   > [Pixiv](https://www.pixiv.net/artworks/70035405)  
     かわいいは正義！なんて言葉がありますが、こういう雰囲気と絵柄が好きなんですよね...。  
+
+</div>
+
+### その他
+
+
+<button @click="toggleRRB('sus')">
+  {{ showing === 'sus' ? "今日の怪文書 を閉じる" : "今日の怪文書 を見る"}}
+</button>
+<div v-if="showing === 'sus'">
+
+
+  :::warning No.{{susdata.index}}  
+  {{ susdata.text }}
+  :::
 
 </div>
 
