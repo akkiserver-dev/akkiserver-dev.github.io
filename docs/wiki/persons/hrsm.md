@@ -4,7 +4,8 @@ title: はーすむ
 ...
 ---
 <script setup>
-  import {ref} from "vue"
+  import {ref,onMounted} from "vue";
+
   const showing = ref(null)
   const toggleRRB = (name) => {
     showing.value = showing.value === name ? null : name
@@ -12,7 +13,13 @@ title: はーすむ
   const owoshoot = () => {
     window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&autoplay=1&mute=1"
   }
-  const dailysus = "準備中だよー"
+
+  const susdata = ref(null);
+  onMounted(async () => {
+    const res = await fetch("https://kaibunsho.riclias.net/api")
+    susdata.value = await res.json()
+  });
+
 </script>
 
 # はーすむ
@@ -124,7 +131,12 @@ title: はーすむ
   {{ showing === 'sus' ? "今日の怪文書 を閉じる" : "今日の怪文書 を見る"}}
 </button>
 <div v-if="showing === 'sus'">
-  {{ dailysus }}
+
+
+  :::warning No.{{susdata.index}}  
+  {{ susdata.text }}
+  :::
+
 </div>
 
 
