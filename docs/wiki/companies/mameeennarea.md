@@ -36,7 +36,7 @@ watch(
         ];
         removes.forEach((removeAt) => {
           if (!removeAt) return;
-          removeAt.animate(animate, 520);
+          removeAt.animate(animate, 650);
         });
         setTimeout(() => {
           removes.forEach((removeAt) => {
@@ -68,14 +68,12 @@ watch(
 主に自動化設備で何かを生産したり、CC:Tweakedのコードを書いて人々に提供したり、手動で鉱石を集めたりしている。
 
 ## 情報
-現本社:   
+恒常スレッド: https://discord.com/channels/1318155001411145758/1499054096462909582  
+現本社: Railway#1鯖  
 リンク: https://discord.com/channels/1318155001411145758/1476463106006974556  
 現社員:
 - [まめーん](../persons/mameeenn)
 
-備考:  
-- サーバー情勢を鑑みた結果、両者の合意に基づきMAreaはマイクラント公国国有鉄道会社の子会社となった。
-  
 会社が設立されたサーバーリスト:  
 - 石風呂本社
 - 本社1号
@@ -90,6 +88,7 @@ watch(
 - 11月鯖
 - 2026年3月鯖 (~3/30)
 - 2026年3月鯖 (3/31): <a href="mameeennarea?destroy=FaxAnarouter" @click="reloader">"DestroyAnarouter"</a>
+- Railway#1鯖
 
 ## CC: Tweaked
 [https://github.com/manmen2414/AKKI-Server-MameeennArea](https://github.com/manmen2414/AKKI-Server-MameeennArea)にてサーバー区切りでプログラムを保管している。
@@ -108,7 +107,7 @@ watch(
 目的は唯一つ。FaxAnarouterを破壊する、それだけ。
 
 ## 情報
-現本社: 2026年3月鯖  
+現本社: なし、これからもなし  
 リンク: https://discord.com/channels/1318155001411145758/1476463106006974556  
 現社員:
 - [まめーん](../persons/mameeenn)
