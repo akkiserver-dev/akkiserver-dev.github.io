@@ -50,13 +50,10 @@ watch(clientScriptLoader, () => {
 
 
 ## ソーシャル
-- ホームページ: [https://manmen2414.github.io/](https://manmen2414.github.io/)
+- ホームページ: https://mameeenn.com/
 - Discord: [am_107ryu](https://discord.com/users/778582802504351745)
 - MCID: [AM_107ryu](https://ja.namemc.com/profile/AM_107ryu)
 - GitHub: [manmen2414](https://github.com/manmen2414)
-- Steam: [inotitokokoro](https://steamcommunity.com/profiles/76561199135832390)
-- PJSekai: <a href="javascript:void(0)" @click="copyPjsekai">558921495067344904 {{copied}}</a>
-  - 誰かわからない不審なフレンド申請は普通に切ります。
 
 ## ツール
 好き勝手やってるのでもしかしたらここら辺にWebツールが追加されてるかもしれません(???????????)  
