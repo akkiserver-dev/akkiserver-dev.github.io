@@ -69,7 +69,7 @@ watch(
 
 ## 情報
 恒常スレッド: https://discord.com/channels/1318155001411145758/1499054096462909582  
-現本社: 7/8月鯖本社 (2 67 -1)  
+現本社: 7/8月鯖本社 (-3197 72 858 - ラピュタ空中国)  
 リンク: https://discord.com/channels/1318155001411145758/1476463106006974556  
 現社員:
 - [まめーん](../persons/mameeenn)
@@ -89,6 +89,7 @@ watch(
 - 2026年3月鯖 (~3/30)
 - 2026年3月鯖 (3/31): <a href="mameeennarea?destroy=FaxAnarouter" @click="reloader">"DestroyAnarouter"</a>
 - Railway#1鯖
+- 2026年7/8月鯖
 
 ## CC: Tweaked
 [https://github.com/manmen2414/AKKI-Server-MameeennArea](https://github.com/manmen2414/AKKI-Server-MameeennArea)にてサーバー区切りでプログラムを保管している。
