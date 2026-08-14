@@ -4,6 +4,12 @@ title: マインラント公国(26年7月)
 ...
 ---
 
+<div style="width:100%; height:220px;">
+  <img src="/2026/jul_railway/mineland.webp" alt="マイクラント公国のスクリーンショット" style="width:100%;height:100%;object-fit:cover;border-radius:20px"/>
+</div>
+
+<div style="margin-top:20px;" ></div>
+
 # マイクラント公国
 
 <div style="font-style: italic;text-align: center;">「鉄道と農業と村人たちのユートピア」 ──はーすむ</div>

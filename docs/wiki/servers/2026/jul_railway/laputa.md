@@ -4,6 +4,12 @@ title: ラピュタ空中国(26年7月)
 ...
 ---
 
+<div style="width:100%; height:220px;">
+  <img src="/2026/jul_railway/laputa.webp" alt="ラピュタ空中国のスクリーンショット" style="width:100%;height:100%;object-fit:cover;border-radius:20px"/>
+</div>
+
+<div style="margin-top:20px;" ></div>
+
 # ラピュタ空中国
 
 <div style="font-style: italic;text-align: center;">「建築力と航空技術のパイオニア」 ──はーすむ</div>
