@@ -10,9 +10,13 @@ title: マインラント公国(26年7月)
 
 <div style="margin-top:20px;" ></div>
 
-# マイクラント公国
+## マイクラント公国
 
 <div style="font-style: italic;text-align: center;">「鉄道と農業と村人たちのユートピア」 ──はーすむ</div>
+
+### 紹介ムービー
+メンバーの1人が自発的に制作した紹介ムービーです。
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F48OYLvhEZE" title="紹介ムービー(Youtube)" allow="encrypted-media; fullscreen" allowfullscreen></iframe>
 
 ### メンバー
 - [フリードリヒ](../../../persons/friderich) 公爵・指導者

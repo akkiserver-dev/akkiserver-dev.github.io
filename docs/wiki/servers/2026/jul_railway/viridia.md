@@ -4,11 +4,11 @@ title: ヴァリディア共和国(26年7月)
 ...
 ---
 
-# ヴァリディア共和国
+## ヴァリディア共和国
 
 <div style="font-style: italic;text-align: center;">「宇宙開発とつよつよインフラ」 ──はーすむ</div>
 
-## メンバー
+### メンバー
 - [あっきー](../../../persons/akki) 総理大臣
 - aisle
 - もっちー

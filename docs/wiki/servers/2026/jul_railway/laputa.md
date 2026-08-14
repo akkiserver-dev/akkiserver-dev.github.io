@@ -10,9 +10,12 @@ title: ラピュタ空中国(26年7月)
 
 <div style="margin-top:20px;" ></div>
 
-# ラピュタ空中国
+## ラピュタ空中国
 
 <div style="font-style: italic;text-align: center;">「建築力と航空技術のパイオニア」 ──はーすむ</div>
+
+### 紹介ムービー
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Mf_UaWkElqA" title="紹介ムービー(Youtube)" allow="encrypted-media; fullscreen" allowfullscreen></iframe>
 
 ### メンバー
 - バルス 初代国王(国王期間: 結成~8/9)
