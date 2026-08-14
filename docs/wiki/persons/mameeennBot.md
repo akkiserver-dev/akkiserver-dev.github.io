@@ -61,6 +61,9 @@ Minecraftのチャット連携を行うBotを利用し、Minecraftのチャッ�
 - /ggrbk: Mk2からの完全移植。
 - /selectgame: 広告でよく見る時間制限内に数字選ぶやつのチャット版。設定で選択肢数や時間、数字範囲等をいじれる。
 - /tellraw: Mk2からの移植。clickEvent周辺の仕様が変化している。
+- /7players: 2026年7月鯖専用のコマンド。プレイヤー数を取得できるが、現在情報を提供しているMameeennAreaサーバーがないため利用不可。
+- /7amazone: 2026年7月鯖専用のコマンド。"amazone"という鉄道を利用した決済購入サービスを使用できるが、同じ理由で使用不可。
+- /7miner_items: 2026年7月鯖専用のコマンド。マインラント公国の採掘場が回収したアイテムを表示できるが、まめーんが他国へ移動したので利用不可。
   
 ### 追加機能
 [コロックル](https://www.topman.co.jp/ky/download/Korockle/6530-010.html)の[Webアプリ](https://www.topman.co.jp/ky/download/Korockle/app/app_web/webapp.html)のネットワーク機能を利用したチャットアプリとDiscord間のメッセージ連携機能を持つ。
