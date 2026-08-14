@@ -16,4 +16,4 @@ title: 4月鯖 TerraFirmaGreg-Modern
 - Ad Astra
 
 ### 情報
-- 開催時期: 2026/04/01~現在
+- 開催時期: 2026/04/01 ~ 2026/05/??
