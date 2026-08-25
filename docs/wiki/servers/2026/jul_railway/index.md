@@ -43,6 +43,7 @@ M_collapsed: true
 
 ### 情報
 - 開催時期: 2026/07/03 ~ Now
+- 8/24 ~ 現在まで一時停止中 ([サーバートラブル](../../../accident/2026/aug_server))
 
 <style module>
 .note{
