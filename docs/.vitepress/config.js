@@ -53,7 +53,7 @@ function getPageMetadata(path) {
     i++;
     if (i === 0 && line !== "---")
       throw new Error(
-        `${path}は不正なページです。先頭に表形式でメタデータを追加してください。`
+        `${path}は不正なページです。先頭に表形式でメタデータを追加してください。`,
       );
     if (line === "...") break;
     if (i !== 0 && line === "---") break;
@@ -74,7 +74,7 @@ function getPageName(path) {
   const title = getPageMetadata(path).title;
   if (!title)
     throw new Error(
-      `${path}は不正なページです。title: "名前"形式で名前メタデータを追加してください。`
+      `${path}は不正なページです。title: "名前"形式で名前メタデータを追加してください。`,
     );
   return title;
 }
@@ -182,7 +182,7 @@ function finalize() {
     if (!!page.M_noDisplay) page.link = null;
     if (!!page.items) {
       page.items = page.items.filter(
-        (val) => !(!val.items && !!val.M_noDisplay)
+        (val) => !(!val.items && !!val.M_noDisplay),
       );
       page.items.forEach(removeNoDisplay);
     }
@@ -210,6 +210,7 @@ genNav();
 export default {
   title: "あっきーサーバー",
   description: "Powered by vitepress",
+  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   themeConfig: {
     nav,
     sidebar,
