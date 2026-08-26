@@ -18,6 +18,7 @@ title: あっきー
 - 推し
   - ハレ (ブルアカ)
   - 彩葉・かぐや・ヤチヨ (超かぐや姫！)
+  - キリコ (Overwatch)
 
 ## 趣味
 - 主にプログラミング(Java)とゲームが趣味。
@@ -27,11 +28,12 @@ title: あっきー
   - Apex
   - ブルアカ
   - etc...
-- アニメも多少見ており、お気に入りの作品がいくつかある
+- アニメも見ており、お気に入りの作品がいくつかある
   - 斉木楠雄のΨ難 (全話視聴済)
   - 銀魂 (全話視聴済)
   - 葬送のフリーレン (2期までの全話視聴済)
-  - 超かぐや姫！ (5周)
+  - 超かぐや姫！ (11周)
+  - とある科学の超電磁砲(無印・S全話視聴済、T視聴中)
 
 ## 主な事件
 ### OP乱用
@@ -53,3 +55,5 @@ title: あっきー
 - MCID: [akki__](https://ja.namemc.com/profile/akki__.2)
   - サブ垢: [akki_sub](https://ja.namemc.com/profile/akki_sub.1)
 - GitHub: [akki697222](https://github.com/akki697222)
+- X: [akkidesuga](https://x.com/akkidesuga)
+- Bluesky: [bsky.akkiserver.uk](https://bsky.app/profile/bsky.akkiserver.uk)
