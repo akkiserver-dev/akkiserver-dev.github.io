@@ -11,5 +11,6 @@ title: ヴァリディア
 ## 国家元首
 - 主に[あっきー](../persons/akki.md)
 ## 歴史
-- [3月鯖](../servers/2026/mar_railway/viridia.md)
-- [7月鯖](../servers/2026/jul_railway/viridia.md)
+- [26年3月鯖](../servers/2026/mar_railway/viridia.md)
+- [26年7月鯖](../servers/2026/jul_railway/viridia.md)
+- [26年9月鯖](../servers/2026/sep_anarchy/viridia.md)
