@@ -57,3 +57,5 @@ title: あっきー
 - GitHub: [akki697222](https://github.com/akki697222)
 - X: [akkidesuga](https://x.com/akkidesuga)
 - Bluesky: [bsky.akkiserver.uk](https://bsky.app/profile/bsky.akkiserver.uk)
+
+追記：当記事の執筆はあっきー本人です
