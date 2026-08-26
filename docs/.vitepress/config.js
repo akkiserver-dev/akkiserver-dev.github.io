@@ -170,6 +170,7 @@ function addSidebarFromDirectory(dirPath) {
     .map((p) => dirPath + "/" + p)
     .forEach(jumpByDirectoryOrFile);
 }
+
 const nav = [{ text: "ホーム", link: "/" }];
 /**
  * サイドバー生成で最後に行う処理。できれば必ず実行してほしいところ。
@@ -187,11 +188,27 @@ function finalize() {
       page.items.forEach(removeNoDisplay);
     }
   }
+  /**
+   * @param {{ text: string, link: string, items?:any[], M_noDisplay?:boolean }} page
+   */
+  function sortItems(page) {
+    if (!!page.items) {
+      page.items.sort((a, b) => {
+        const aNum = parseFloat(a.text);
+        const bNum = parseFloat(b.text);
+        // 先頭の数字がある場合はそれでソート
+        if (!Number.isNaN(aNum) && !Number.isNaN(bNum)) {
+          return aNum - bNum;
+        }
+        return a.text < b.text ? -1 : 1;
+      });
+      page.items.forEach(sortItems);
+    }
+  }
   for (const path in sidebar) {
     if (path !== "/") sidebar[path].unshift({ text: "ホーム", link: "/" });
-  }
-  for (const key in sidebar) {
-    removeNoDisplay({ items: sidebar[key] });
+    removeNoDisplay({ items: sidebar[path] });
+    sortItems({ items: sidebar[path] });
   }
 }
 /**
