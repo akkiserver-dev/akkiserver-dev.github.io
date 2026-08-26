@@ -5,9 +5,6 @@ title: "ホーム"
 hero:
   name: "あっきーサーバー"
   tagline: "主にマイクラのmodサーバー等の企画をやっているサーバー"
-  image:
-    src: /2026/jul_railway/laputa.webp
-    alt: いつかの鯖のスクショ
   actions:
     - theme: brand
       text: このサーバーについて
