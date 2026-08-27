@@ -61,22 +61,20 @@ VortexというDiscordのBotを使って自動で管理されており、Strike�
 何を思ったのか2025年にV3から新しく作り直された。  
 少しでも活発になればいいなと思い、ProBotによるレベルとランクが導入された。  
 一番はV3のスペースが「ひとりごと」チャンネルになり個人個人が自由にスレッドを作ったりすることでV3のスペースと違い圧迫されることもなく、通知が飛ぶこともなくなった。  
-チャンネルもV3などと比べてかなり整理され減っている。
+チャンネルもV3などと比べてかなり整理され減っている。  
+...しかし、あっきーが問題を起こしまくった結果なぜかあっきーは管理ロールを失っている。
 ### 主要メンバー
-基準: 600以上
-- [あっきー](/wiki/persons/akki)
+基準: 3000以上
+- [あっきー](/wiki/persons/akki) (33,672メッセージ)
 - [まめーん](/wiki/persons/mameeenn)
-- [はーすむ](/wiki/persons/hrsm)
-- めだころ
-- Meatwo
-- cureha
 - [Tamu](/wiki/persons/tamu)
 - [chef](/wiki/persons/chef)
-- 上り坂鉄道/Railway46
-- 干し柿
-- aisle
+- [フリードリヒ](/wiki/persons/friderich)
+- 和孤
+- [daiki](/wiki/persons/daiki)
+- Meatwo
 - バルス
+- めだころ
+- [はーすむ](/wiki/persons/hrsm)
+- Twister
 - アミノ酸
-- Sky
-- イナゴの佃煮
-- inato
