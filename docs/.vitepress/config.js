@@ -131,6 +131,7 @@ function addFileToList(path) {
   const pageName = getPageName(path);
   const pageLink = getProjectFilePath(path);
   const pageObject = { text: pageName, link: pageLink };
+  const { M_noDisplay, M_collapsed, M_priority } = getPageMetadata(path);
   // ルートフォルダ
   if (proDir.length === 0) {
     sidebar[curDir] ??= [];
@@ -138,14 +139,15 @@ function addFileToList(path) {
   } else {
     // 該当オブジェクトを探索する
     const curobj = getPagePathObject("/" + proDir.join("/"));
-    const { M_noDisplay, M_collapsed } = getPageMetadata(path);
     if (filename === "index.md") {
       // index.mdのオブジェクトはすでにあるため、noDisplayを書き換えれば表示可能
       curobj.M_noDisplay = M_noDisplay;
       curobj.text = pageName;
       curobj.collapsed = M_collapsed ?? false;
+      curobj.M_priority = M_priority ?? 0;
     } else {
       pageObject.M_noDisplay = M_noDisplay;
+      pageObject.M_priority = M_priority ?? 0;
       curobj.items.push(pageObject);
     }
   }
@@ -189,11 +191,14 @@ function finalize() {
     }
   }
   /**
-   * @param {{ text: string, link: string, items?:any[], M_noDisplay?:boolean }} page
+   * @param {{ text: string, link: string, items?:any[] }} page
    */
   function sortItems(page) {
     if (!!page.items) {
       page.items.sort((a, b) => {
+        if (a.M_priority !== b.M_priority) {
+          return b.M_priority - a.M_priority;
+        }
         const aNum = parseFloat(a.text);
         const bNum = parseFloat(b.text);
         // 先頭の数字がある場合はそれでソート
@@ -206,9 +211,9 @@ function finalize() {
     }
   }
   for (const path in sidebar) {
-    if (path !== "/") sidebar[path].unshift({ text: "ホーム", link: "/" });
     removeNoDisplay({ items: sidebar[path] });
     sortItems({ items: sidebar[path] });
+    if (path !== "/") sidebar[path].unshift({ text: "ホーム", link: "/" });
   }
 }
 /**

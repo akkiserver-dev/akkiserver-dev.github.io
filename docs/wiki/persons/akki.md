@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: あっきー
+M_priority: 5
 ...
 ---
 
