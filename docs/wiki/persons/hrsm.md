@@ -14,12 +14,6 @@ title: はーすむ
     window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&autoplay=1&mute=1"
   }
 
-  const susdata = ref(null);
-  onMounted(async () => {
-    const res = await fetch("https://kaibunsho.riclias.net/api")
-    susdata.value = await res.json()
-  });
-
 </script>
 
 # はーすむ
@@ -29,13 +23,14 @@ title: はーすむ
 - 一時期「はーむす」と間違えられていたことから、サブアカウントの名前は「HardOmusubi」となっている。マイクラは知らん。
 - 以前はモデレーターとして積極的に活動していたものの、ルールの厳格さを求めすぎるがあまり失敗したことがあり、それ以来はあまりモデレーターとして動いていない。  
 - PvPが非常に苦手で、気配を感じるとMinecraft鯖から消えることもある。 
-- 音楽が生きる源。初音ミクV4Xを持っているが、使われている形跡はない。
+- 音楽が生きる源。初音ミクV4Xと足立レイV6を持っているが、使われている形跡はない。
 - いわゆる乗り鉄。鉄道を使う旅行はできるだけ変なルートで行きたい派。
   - 以前はマイクラ内でも鉄道を作っていた。が、なんだかんだで今はしなくなっている。当時の名残で信号などの知識は若干ある。
+  - [26年7月鯖](../servers/2026/jul_railway/index.md) では国際線における高密度運転の実現のためダイヤを組む事になった。これについては[別途記事](../servers/2026/jul_railway/diagrams/index.md)を参照。
 
 ### ソーシャルアカウント
-つったかたー: [HardSmoothyMC](https://x.com/HardSmoothyMC)
-さうんどくりゃーど: [hardsmoothy_archade](https://soundcloud.com/hardsmoothy_archade)
+Bluesky: [HardSmoothy](https://bsky.app/profile/hardsmoothy.riclias.net)
+Soundcloud: [hardsmoothy_archade](https://soundcloud.com/hardsmoothy_archade)
 
 ## あそびましょ、あそびましょ
 この項目は、このホームページの内部構造からなんとなく使えそうな構造を引っ張って遊んでいる項目です。
@@ -126,18 +121,7 @@ title: はーすむ
 
 ### その他
 
-
-<button @click="toggleRRB('sus')">
-  {{ showing === 'sus' ? "今日の怪文書 を閉じる" : "今日の怪文書 を見る"}}
-</button>
-<div v-if="showing === 'sus'">
-
-
-  :::warning No.{{susdata.index}}  
-  {{ susdata.text }}
-  :::
-
-</div>
+> 怪文書API、サ終しちゃったから置くもの無いんたよなぁ....
 
 
 ### OwO?
