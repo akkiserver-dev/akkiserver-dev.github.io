@@ -98,7 +98,7 @@ title: 7月鯖鉄道の変遷
 ## 3. 現行ダイヤのデータ {#data}
 
 ### 停車駅パターン一覧
-![停車駅パターン](international_line_stops.png)
+![停車駅パターン](/2026/jul_railway/international_line_stops.png)
 
 ### 各駅発車時刻表
 
