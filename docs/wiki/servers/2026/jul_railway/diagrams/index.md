@@ -5,7 +5,7 @@ title: 7月鯖鉄道の変遷
 ---
 
 <div style="width:100%; height:220px;">
-  <img src="/2026/jul_railway/0809railway.png" alt="ラピュタ空中国のスクリーンショット" style="width:100%;height:100%;object-fit:cover;border-radius:20px"/>
+  <img src="/2026/jul_railway/0809railway.png" alt="列車のスクリーンショット" style="width:100%;height:100%;object-fit:cover;border-radius:20px"/>
 </div>
 
 # 7月鯖の鉄道の変遷
